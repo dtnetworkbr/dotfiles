@@ -7,10 +7,8 @@ cd yay
 makepkg -si
 
 sudo pacman -S docker docker-compose
-yay google-chrome
-yay visual-studio-code-bin
-yay teams
+yay google-chrome visual-studio-code-bin teams
 
 sudo systemctl enable docker
-usermod -aG docker $1
+sudo usermod -aG docker $1
 
