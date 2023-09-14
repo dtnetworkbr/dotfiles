@@ -1,0 +1,14 @@
+[Unit]
+Description=Pgadmin4 Service
+After=network.target
+
+[Service]
+User=root
+Group=root
+#WorkingDirectory=/home//Downloads/pgadmin4/
+#Environment="PATH=/home/qgis/Downloads/pgadmin4/bin"
+ExecStart=/home/rcovery/.local/bin/pgadmin4
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
