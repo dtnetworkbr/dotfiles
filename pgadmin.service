@@ -6,8 +6,8 @@ After=network.target
 User=root
 Group=root
 #WorkingDirectory=/home//Downloads/pgadmin4/
-#Environment="PATH=/home/qgis/Downloads/pgadmin4/bin"
-ExecStart=/home/rcovery/.local/bin/pgadmin4
+#Environment="PATH=/home//Downloads/pgadmin4/bin"
+ExecStart=/home//.local/bin/pgadmin4
 PrivateTmp=true
 
 [Install]
