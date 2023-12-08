@@ -6,7 +6,7 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-sudo pacman -S docker docker-compose python-pip python-pipx python-setuptools gst-plugins-good gst-plugin-pipewire php nodejs npm noto-fonts-emoji
+sudo pacman -S docker docker-compose python-pip python-pipx python-setuptools gst-plugins-good gst-plugin-pipewire php nodejs npm noto-fonts-emoji networkmanager-openvpn network-manager-applet
 fc-cache -f
 yay google-chrome
 yay teams-for-linux
